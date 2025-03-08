@@ -19,6 +19,7 @@
 }
 
 body, html {
+  user-select: none;
   font-family: "IM Fell English SC", serif;
   margin: 0;
   padding: 0;
@@ -281,7 +282,9 @@ header {
   margin: 20px auto;
   max-width: 50%;
   max-height: 90%;
-  background: url("/img/paper.png") no-repeat center center;
+  background: url("/Wild-Landing-Page-Fanmade-/img/paper.png") no-repeat center center;
+  color: black;
+  text-shadow: 2px 2px 10px gold, 2px 0px 0px gold, 2px 1px 0px gold;
   background-size: 100%;
   color: #000;
   position: relative;
@@ -295,6 +298,7 @@ header {
 }
 
 .detail-content {
+  color: black;
   position: relative;
 }
 
@@ -375,6 +379,7 @@ section.inactive {
 }
 
 .section-title {
+  user-select: none;
   pointer-events: none;
   position: absolute;
   z-index: 1900;
@@ -636,12 +641,14 @@ section.inactive {
 }
 
 .scroll-indicator {
+  user-select: none;
   text-align: center;
   padding: 10px 0;
   color: white;
 }
 
 .scroll-arrow {
+  user-select: none;
   text-align: center;
   width: 40px;
   animation: scrollBounce 1.5s infinite ease-in-out;
@@ -755,6 +762,7 @@ section.inactive {
 }
 
 .system-section {
+  user-select: none;
   position: relative;
   padding: 100px 0;
   max-height: 800px;
@@ -833,10 +841,12 @@ section.inactive {
 }
 
 .products {
+  user-select: none;
   text-align: center;
   padding: 50px 20px;
 }
 .products h2 {
+  user-select: none;
   color: goldenrod;
 }
 .products .product-grid {
