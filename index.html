@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wild Fanpage</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUa6m7Qv3T1KrQ0S8WqtP5QjXXNeO0ODdOCjFfIxX5M7sPh3CmXMRGDaWeVH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+
+    <button id="music-toggle" class="music-button">
+      <i class="bi bi-play-fill"></i>
+  </button>
+
+  <audio id="background-music" loop>
+      <source src="audio/bgm3.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+  </audio>
+
+<body>
+  <header>
+    <button class="menu-toggle">
+      <i class="bi bi-list"></i>
+    </button>
+    <nav class="navbar">
+      <button class="close-menu">
+        <i class="bi bi-x"></i>
+      </button>
+      <ul>
+        <li>
+          <a href="#environment">
+            <span class="icon-container">
+              <img src="img/wildiconblack.png" alt="icon" class="icon-black">
+              <img src="img/wildiconcolor.png" alt="icon" class="icon-color">
+            </span>
+            ENVIRONMENT
+          </a>
+        </li>
+        <li>
+          <a href="#monsters">
+            <span class="icon-container">
+              <img src="img/wildiconblack.png" alt="icon" class="icon-black">
+              <img src="img/wildiconcolor.png" alt="icon" class="icon-color">
+            </span>
+            MONSTERS
+          </a>
+        </li>
+        <li>
+          <a href="#hunting">
+            <span class="icon-container">
+              <img src="img/wildiconblack.png" alt="icon" class="icon-black">
+              <img src="img/wildiconcolor.png" alt="icon" class="icon-color">
+            </span>
+            WEAPON
+          </a>
+        </li>
+        <li>
+          <a href="#characters">
+            <span class="icon-container">
+              <img src="img/wildiconblack.png" alt="icon" class="icon-black">
+              <img src="img/wildiconcolor.png" alt="icon" class="icon-color">
+            </span>
+            CHARACTERS
+          </a>
+        </li>
+        <li>
+          <a href="#system">
+            <span class="icon-container">
+              <img src="img/wildiconblack.png" alt="icon" class="icon-black">
+              <img src="img/wildiconcolor.png" alt="icon" class="icon-color">
+            </span>
+            SYSTEM
+          </a>
+        </li>
+        <li>
+          <a href="#products">
+            <span class="icon-container">
+              <img src="img/wildiconblack.png" alt="icon" class="icon-black">
+              <img src="img/wildiconcolor.png" alt="icon" class="icon-color">
+            </span>
+            PRODUCTS
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <video autoplay loop muted playsinline class="bg-video">
+    <source src="vid/MHWbg.mp4" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+
+<section id="landing" class="landing-section">
+  <div class="content">
+    <img src="img/mhw_logo.png" alt="Monster Hunter Wilds Icon" class="center-icon">
+  </div>
+  <div id="joinHuntButton">
+    <img src="img/button.png" alt="Test Image">
+  </div>
+  <div class="platform-logos">
+    <a href="https://store.steampowered.com/app/2246340/Monster_Hunter_Wilds/" target="_blank"><img src="img/steam.png" alt="Steam"></a>
+    <a href="https://www.playstation.com/en-th/games/monster-hunter-wilds/" target="_blank"><img src="img/ps5.png" alt="PS5"></a>
+    <a href="https://www.xbox.com/en-US/games/store/monster-hunter-wilds/9NMT6XFN0LVD" target="_blank"><img src="img/xbox.png" alt="Xbox"></a>
+  </div>
+  
+  <div class="section-buttons">
+    <button data-section="environment">
+      <span class="icon-container">
+        <img src="img/wildiconblack.png" alt="icon" class="icon-black">
+        <img src="img/wildiconcolor.png" alt="icon" class="icon-color">
+      </span>
+      ENVIRONMENT
+    </button>
+    <button data-section="monsters">
+      <span class="icon-container">
+        <img src="img/wildiconblack.png" alt="icon" class="icon-black">
+        <img src="img/wildiconcolor.png" alt="icon" class="icon-color">
+      </span>
+      MONSTERS
+    <button data-section="hunting">
+      <span class="icon-container">
+        <img src="img/wildiconblack.png" alt="icon" class="icon-black">
+        <img src="img/wildiconcolor.png" alt="icon" class="icon-color">
+      </span>
+      WEAPON
+    </button>
+    <button data-section="characters">
+      <span class="icon-container">
+        <img src="img/wildiconblack.png" alt="icon" class="icon-black">
+        <img src="img/wildiconcolor.png" alt="icon" class="icon-color">
+      </span>
+      CHARACTERS
+    </button>
+    <button data-section="system">
+      <span class="icon-container">
+        <img src="img/wildiconblack.png" alt="icon" class="icon-black">
+        <img src="img/wildiconcolor.png" alt="icon" class="icon-color">
+      </span>
+      SYSTEM
+    </button>
+    <button data-section="products">
+      <span class="icon-container">
+        <img src="img/wildiconblack.png" alt="icon" class="icon-black">
+        <img src="img/wildiconcolor.png" alt="icon" class="icon-color">
+      </span>
+      PRODUCTS
+    </button>
+  </div>
+</section>
+
+<section class="scroll-indicator">
+  <img src="img/scroll.png" alt="Scroll Down" class="scroll-arrow">
+  <p>Scroll Down</p>
+</section>
+
+  <!-- Environment Section -->
+  <div class="section-title">Explore all the regions with a harsh environment</div>
+  <section id="environment">
+    <div id="environment-image" class="fade-in"></div>
+    <div id="sub-region-buttons" class="hidden"></div>
+    <div id="region-buttons">
+        <button class="region-btn" data-region="windward">Windward Plains</button>
+        <button class="region-btn" data-region="scarlet">Scarlet Forest</button>
+        <button class="region-btn" data-region="oilwell">Oilwell Basin</button>
+        <button class="region-btn" data-region="ice">Iceshard Cliff</button>
+    </div>
+</section>
+
+<section class="scroll-indicator">
+  <img src="img/scroll.png" alt="Scroll Down" class="scroll-arrow">
+  <p>Scroll Down</p>
+</section>
+
+<div class="section-title">Challenge a world filled with monsters</div>
+<!-- Monster Section -->
+<section id="monsters">
+  <div class="monster-section">
+    <div class="monster-bg">
+      <img src="img/monsterpaper.jpg" alt="Monster Background" />
+    </div>
+    <!-- Monster Display Area -->
+    <div class="monster-display">
+      <img id="monster-image" src="img/doshaguma.png" alt="doshaguma" />
+    </div>
+    <div class="roar-button">      
+      <img id="roar-button" src="img/roar.png" alt="Roar Button" />
+    </div>
+
+    <!-- Monster Info -->
+    <div class="monster-info">
+      <h2 id="monster-name">Doshaguma</h2>
+      <p id="monster-description">Fanged beasts that are sometimes seen traveling in packs. Ruggedly built and extremely aggressive, Doshaguma won't hesitate to throw everything they've got at enemies - even other small monsters.</p>
+    </div>
+
+    <!-- Monster Icons (Right Sidebar) -->
+    <div class="monster-icons">
+      <img src="img/arkveldicon.png" alt="Arkveld" onclick="selectMonster('arkveld')" />
+      <img src="img/goreicon.webp" alt="Gore Magala" onclick="selectMonster('goremagala')" />
+      <img src="img/doshagumaicon.webp" alt="Doshaguma" onclick="selectMonster('doshaguma')" />
+      <img src="img/reydauicon.webp" alt="Rey Dau" onclick="selectMonster('reydau')" />
+      <img src="img/uthdunaicon.png" alt="Uth Duna" onclick="selectMonster('uthduna')" />
+      <img src="img/nuudraicon.png" alt="Nu Udra" onclick="selectMonster('nuudra')" />
+      <img src="img/jindahaadicon.webp" alt="Jin Dahaad" onclick="selectMonster('jindahaad')" />
+    </div>
+  </div>
+
+  <audio id="monster-roar"></audio>
+</section>
+
+<section class="scroll-indicator">
+  <img src="img/scroll.png" alt="Scroll Down" class="scroll-arrow">
+  <p>Scroll Down</p>
+</section>
+
+
+  <!-- Weapon Section (HUNTING/WEAPON) -->
+  <section id="hunting" class="weapon-section">
+    <div class="section-title">Try out all 14 weapons to fit your style!</div>
+    <div class="weapon-icons">
+      <img src="img/GS.png" alt="Greatsword" class="weapon-icon" data-weapon="greatsword">
+      <img src="img/LS.png" alt="Longsword" class="weapon-icon" data-weapon="longsword">
+      <img src="img/DB.png" alt="Dual Blades" class="weapon-icon" data-weapon="dualblades">
+      <img src="img/SNS.png" alt="Sword & Shield" class="weapon-icon" data-weapon="sns">
+      <img src="img/HAMMER.png" alt="Hammer" class="weapon-icon" data-weapon="hammer">
+      <img src="img/SA.png" alt="Switch Axe" class="weapon-icon" data-weapon="switchaxe">
+      <img src="img/HH.png" alt="Hunting Horn" class="weapon-icon" data-weapon="huntinghorn">
+      <img src="img/LANCE.png" alt="Lance" class="weapon-icon" data-weapon="lance">
+      <img src="img/GL.png" alt="Gunlance" class="weapon-icon" data-weapon="gunlance">
+      <img src="img/IG.png" alt="Insect Glaive" class="weapon-icon" data-weapon="insectglaive">
+      <img src="img/CB.png" alt="Charge Blade" class="weapon-icon" data-weapon="chargeblade">
+      <img src="img/LBG.png" alt="Light Bowgun" class="weapon-icon" data-weapon="lightbowgun">
+      <img src="img/HBG.png" alt="Heavy Bowgun" class="weapon-icon" data-weapon="heavybowgun">
+      <img src="img/BOW.png" alt="Bow" class="weapon-icon" data-weapon="bow">
+    </div>
+      <!-- Weapon Detail Section -->
+    <section id="weapon-detail" class="weapon-detail-section">
+      <div class="detail-content">
+        <h2 id="weapon-name">Weapon Name</h2>
+        <p id="weapon-description">Click the weapon icon to select</p>
+        <img id="hunter-image" src="" alt="Select Weapon Above" class="hunter-image">
+        <iframe id="weapon-video" src="" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+   </section>
+
+   <section class="scroll-indicator">
+    <img src="img/scroll.png" alt="Scroll Down" class="scroll-arrow">
+    <p>Scroll Down</p>
+  </section>
+
+<!-- Characters Section -->
+<section id="characters" class="character-section">
+  <!-- 1. Hunter -->
+  <div class="character">
+    <div class="section-title">Main Characters</div>
+      <div class="character-info">
+          <h3 class="title">Hunter</h3>
+          <p class="description">The protagonist and the character you play as. A hunter assigned to the Forbidden Lands Research Commission, their job is to help investigate this unexplored region.</p>
+          <img src="img/hunter.jpg" alt="Extra Hunter Image" class="extra-photo">
+      </div>
+      <div class="character-image">
+          <img src="img/hunter.png" alt="Hunter Image">
+      </div>
+  </div>
+
+  <!-- 2. Palico -->
+  <div class="character">
+    <div class="character-info">
+      <h3 class="title">Palico</h3>
+      <p class="description">A Felyne—a cat-like creature fully capable of speaking with people—who is the hunter's trusted "Palico" partner. They'll provide invaluable hunting AND moral support!</p>
+      <img src="img/palico.jpg" alt="Extra Palico Image" class="extra-photo">
+    </div>
+      <div class="character-image">
+          <img src="img/palico.png" alt="Palico Image">
+      </div>
+  </div>
+
+  <!-- 3. Alma -->
+  <div class="character">
+      <div class="character-info">
+          <h3 class="title">Alma</h3>
+          <p class="description">The hunter's "Handler"—one who manages monster hunt requests, permissions, and quests. She'll accompany you out on quests and provide valuable support and knowledge.
+            A specialist in cultural anthropology and an avid archaeologist.</p>
+          <img src="img/alma.avif" alt="Extra Alma Image" class="extra-photo">
+      </div>
+      <div class="character-image">
+          <img src="img/alma.png" alt="Alma Image">
+      </div>
+  </div>
+
+  <!-- 4. Gemma -->
+  <div class="character">
+    <div class="character-info">
+      <h3 class="title">Gemma</h3>
+      <p class="description">A smithy with the Research Commission. She'll take care of all your weapon and armor crafting needs!</p>
+      <img src="img/gemma.webp" alt="Extra Gemma Image" class="extra-photo">
+    </div>
+      <div class="character-image">
+          <img src="img/gemma.png" alt="Gemma Image">
+      </div>
+
+  </div>
+
+  <!-- 5. Nata -->
+  <div class="character">
+    <div class="character-info">
+      <h3 class="title">Nata</h3>
+      <p class="description">"I was still hoping that I imagined the whole thing..."
+        A mysterious young boy that accompanies you on your journey.</p>
+      <img src="img/nata.avif" alt="Extra Nata Image" class="extra-photo">
+    </div>
+    <div class="character-image">
+      <img src="img/nata.png" alt="Nata Image">
+    </div>
+  </div>
+</section>
+
+<section class="scroll-indicator">
+  <img src="img/scroll.png" alt="Scroll Down" class="scroll-arrow">
+  <p>Scroll Down</p>
+</section>
+
+<!-- System Section -->
+<div class="section-title">Experience new mechanic and better system.</div>
+<section id="system" class="system-section">
+  <!-- Background Layer -->
+  <div class="system-bg">
+    <img src="img/paper2.jpg" alt="System Background" />
+  </div>
+
+  <div class="system-container">
+    <!-- System Image (Left Side) -->
+    <div class="system-image">
+      <img id="system-image" src="img/seikret.png" alt="Seikret Image" />
+    </div>
+
+    <!-- System Info (Center) -->
+    <div class="system-info">
+      <h2 id="system-title">Seikret</h2>
+      <p id="system-description">
+        Assist you in every hunt and give you a ride to every of your destination!
+      </p>
+    </div>
+
+    <!-- System Buttons (Right Side) -->
+    <div class="system-buttons">
+      <button class="system-btn" data-system="multiplayer">Multiplayer</button>
+      <button class="system-btn" data-system="clashing">Clashing</button>
+      <button class="system-btn active" data-system="seikret">Seikret</button>
+    </div>
+  </div>
+</section>
+
+  <section class="scroll-indicator">
+    <img src="img/scroll.png" alt="Scroll Down" class="scroll-arrow">
+    <p>Scroll Down</p>
+  </section>
+
+  <!-- Products Section-->
+  <section id="products" class="products">
+    <div class="section-title">Join the hunt now!</div>
+    <div class="product-grid">
+        <div class="product-card">
+          <img class="bg" src="img/wildvertical.webp" alt="Background">
+            <img src="img/wild.png" alt="Product 1">
+            <h3>Standard Edition</h3>
+            <p>$29.99</p>
+            <a href="https://store.steampowered.com/app/2246340/Monster_Hunter_Wilds/" target="_blank" class="buy-now">Buy Now</a>
+        </div>
+        <div class="product-card">
+          <img class="bg" src="img/wildvertical.webp" alt="Background">
+            <img src="img/wilddeluxe.png" alt="Product 2">
+            <h3>Deluxe Edition</h3>
+            <p>$39.99</p>
+            <a href="https://store.steampowered.com/app/2246340/Monster_Hunter_Wilds/" target="_blank" class="buy-now">Buy Now</a>
+        </div>
+        <div class="product-card">
+          <img class="bg" src="img/wildvertical.webp" alt="Background">
+          <img src="img/wildpremium.png" alt="Product 3">
+          <h3>Premium Deluxe Edition</h3>
+          <p>$109.99</p>
+          <a href="https://store.steampowered.com/app/2246340/Monster_Hunter_Wilds/" target="_blank" class="buy-now">Buy Now</a>
+      </div>
+    </div>
+</section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoAlKZCJCJgGyfqUPvZRa6GdY5G5x3qn7uG85ifq0G5jF5L" crossorigin="anonymous"></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
