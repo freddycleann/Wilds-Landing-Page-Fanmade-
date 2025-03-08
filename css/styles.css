@@ -902,7 +902,7 @@ section.inactive {
 .products .product-card .buy-now {
   user-select: none;
   display: inline-block;
-  background: red;
+  background: darkgoldenrod;
   color: white;
   text-decoration: none;
   padding: 10px 20px;
@@ -911,7 +911,7 @@ section.inactive {
   transition: background 0.3s;
 }
 .products .product-card .buy-now:hover {
-  background: yellow;
+  background: crimson;
 }
 
 /*# sourceMappingURL=styles.css.map */
