@@ -416,3 +416,33 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const backToTopBtn = document.getElementById("back-to-top");
+
+  window.addEventListener("scroll", function () {
+      if (window.scrollY > 300) {
+          backToTopBtn.classList.add("visible");
+      } else {
+          backToTopBtn.classList.remove("visible");
+      }
+  });
+
+  backToTopBtn.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const backToTopButton = document.getElementById("back-to-top");
+  const landingSection = document.getElementById("landing");
+
+  if (backToTopButton && landingSection) {
+    backToTopButton.addEventListener("click", function () {
+      landingSection.scrollIntoView({ behavior: "smooth" });
+    });
+  } else {
+    console.error("Element not found: #back-to-top or #landing");
+  }
+});
+
