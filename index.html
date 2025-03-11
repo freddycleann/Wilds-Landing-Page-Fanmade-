@@ -67,6 +67,15 @@
           </a>
         </li>
         <li>
+          <a href="#gameplay">
+            <span class="icon-container">
+              <img src="img/wildiconblack.png" alt="icon" class="icon-black">
+              <img src="img/wildiconcolor.png" alt="icon" class="icon-color">
+            </span>
+            GAMEPLAY
+          </a>
+        </li>
+        <li>
           <a href="#system">
             <span class="icon-container">
               <img src="img/wildiconblack.png" alt="icon" class="icon-black">
@@ -133,6 +142,13 @@
         <img src="img/wildiconcolor.png" alt="icon" class="icon-color">
       </span>
       CHARACTERS
+    </button>
+    <button data-section="gameplay">
+      <span class="icon-container">
+        <img src="img/wildiconblack.png" alt="icon" class="icon-black">
+        <img src="img/wildiconcolor.png" alt="icon" class="icon-color">
+      </span>
+      GAMEPLAY
     </button>
     <button data-section="system">
       <span class="icon-container">
@@ -323,6 +339,39 @@
   <p>Scroll Down</p>
 </section>
 
+<!-- Gameplay Section -->
+<div class="section-title">Challenge a strong apex monster</div>
+<section id="gameplay" class="gameplay-section">
+  <div class="gameplay-bg">
+    <img src="img/paper2.jpg" alt="Gameplay Background" />
+  </div>
+  <div class="gameplay-container">
+
+    <div class="gameplay-info">
+      <h2 id="gameplay-title">Gameplay</h2>
+      <p id="gameplay-description">
+        This will show some beautiful combat against the apex predator of the Windward Plains "Rey Dau" and the fanged beast "Doshaguma"
+      </p>
+    </div>
+    <!-- Gameplay (Right) -->
+    <div class="gameplay-image">
+      <video 
+      id="gameplay-image" 
+      src="/vid/videoplayback.mp4" 
+      autoplay 
+      muted 
+      loop 
+      playsinline
+    ></video>
+    </div>
+  </div>
+</section>
+
+<section class="scroll-indicator">
+  <img src="img/scroll.png" alt="Scroll Down" class="scroll-arrow">
+  <p>Scroll Down</p>
+</section>
+
 <!-- System Section -->
 <div class="section-title">Experience new mechanic and better system.</div>
 <section id="system" class="system-section">
@@ -392,3 +441,4 @@
   <script src="js/main.js" defer></script>
 </body>
 </html>
+
