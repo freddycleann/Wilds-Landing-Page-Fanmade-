@@ -190,7 +190,7 @@ header {
 
 .navbar ul li {
   user-select: none;
-  margin: 8px 0;
+  margin: 15px 0;
 }
 
 .navbar ul li a {
@@ -832,6 +832,117 @@ section.inactive {
   background: orangered;
 }
 
+.products {
+  text-align: center;
+  padding: 50px 20px;
+}
+.products h2 {
+  color: goldenrod;
+}
+.products .product-grid {
+  right: 50%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1500px;
+  margin: auto;
+  margin-left: 240px;
+}
+.products .product-card {
+  font-size: 2rem;
+  user-select: none;
+  position: relative;
+  background-size: cover;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+.products .product-card:hover {
+  transform: translateY(-5px);
+}
+.products .product-card .bg {
+  user-select: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0.7;
+}
+.products .product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.products .product-card h3 {
+  color: gold;
+  text-shadow: -2px 0 black, 2px 0 black, -2px 0 black, -2px 0 black;
+  margin: 10px 0;
+}
+.products .product-card p {
+  color: black;
+  text-shadow: -2px 0 gold, 2px 0 gold, -2px 0 gold, -2px 0 gold;
+  font-size: 36px;
+  font-weight: bold;
+}
+.products .product-card li {
+  color: black;
+  text-shadow: -2px 0 gold, 2px 0 gold, -2px 0 gold, -2px 0 gold;
+}
+.products .product-card .buy-now {
+  user-select: none;
+  display: inline-block;
+  background: red;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+.products .product-card .buy-now:hover {
+  background: yellow;
+}
+
+.spec-box {
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px;
+  background: #222;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+.spec-box h2 {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.spec-box .spec-content {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+.spec-box .spec-content .spec-column {
+  width: 45%;
+}
+.spec-box .spec-content .spec-column h3 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.spec-box .spec-content .spec-column ul {
+  font-size: 18px;
+  list-style: none;
+  padding: 0;
+  color: gold;
+}
+.spec-box .spec-content .spec-column ul li {
+  margin: 5px 0;
+}
+
 .gameplay-section {
   position: relative;
   padding: 100px 0;
@@ -894,74 +1005,4 @@ section.inactive {
   text-shadow: -2px 0 crimson, 2px 0 red, -2px 0 maroon, -2px 0 red;
 }
 
-.products {
-  text-align: center;
-  padding: 50px 20px;
-}
-.products h2 {
-  color: goldenrod;
-}
-.products .product-grid {
-  right: 50%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  max-width: 1500px;
-  margin: auto;
-  margin-left: 240px;
-}
-.products .product-card {
-  font-size: 2rem;
-  user-select: none;
-  position: relative;
-  background-size: cover;
-  padding: 20px;
-  width: 300px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease-in-out;
-}
-.products .product-card:hover {
-  transform: translateY(-5px);
-}
-.products .product-card .bg {
-  user-select: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: inherit;
-  z-index: -1;
-  opacity: 0.7;
-}
-.products .product-card img {
-  width: 100%;
-  border-radius: 10px;
-}
-.products .product-card h3 {
-  color: gold;
-  text-shadow: -2px 0 black, 2px 0 black, -2px 0 black, -2px 0 black;
-  margin: 10px 0;
-}
-.products .product-card p {
-  color: black;
-  text-shadow: -2px 0 gold, 2px 0 gold, -2px 0 gold, -2px 0 gold;
-  font-size: 36px;
-  font-weight: bold;
-}
-.products .product-card .buy-now {
-  user-select: none;
-  display: inline-block;
-  background: red;
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-top: 10px;
-  transition: background 0.3s;
-}
-.products .product-card .buy-now:hover {
-  background: yellow;
-}
+/*# sourceMappingURL=styles.css.map */
