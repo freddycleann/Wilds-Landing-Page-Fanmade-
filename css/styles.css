@@ -1005,4 +1005,41 @@ section.inactive {
   text-shadow: -2px 0 crimson, 2px 0 red, -2px 0 maroon, -2px 0 red;
 }
 
+.back-to-top {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.back-to-top img {
+  width: 50px;
+  height: 50px;
+  transform: rotate(180deg);
+  animation: float 1.5s infinite alternate ease-in-out;
+}
+.back-to-top span {
+  font-size: 16px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+@keyframes float {
+  0% {
+    transform: rotate(180deg) translateY(0);
+  }
+  100% {
+    transform: rotate(180deg) translateY(-10px);
+  }
+}
+footer {
+  position: relative;
+}
+
 /*# sourceMappingURL=styles.css.map */
