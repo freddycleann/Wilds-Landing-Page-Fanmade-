@@ -911,6 +911,7 @@ section.inactive {
 }
 
 .spec-box {
+  user-select: none;
   width: 90%;
   margin: 20px auto;
   padding: 15px;
@@ -920,38 +921,46 @@ section.inactive {
   text-align: center;
 }
 .spec-box h2 {
+  user-select: none;
   margin-bottom: 10px;
   font-size: 40px;
 }
 .spec-box .spec-content {
+  user-select: none;
   display: flex;
   justify-content: space-around;
   text-align: left;
 }
 .spec-box .spec-content .spec-column {
+  user-select: none;
   width: 45%;
 }
 .spec-box .spec-content .spec-column h3 {
+  user-select: none;
   font-size: 30px;
   margin-bottom: 5px;
 }
 .spec-box .spec-content .spec-column ul {
+  user-select: none;
   font-size: 18px;
   list-style: none;
   padding: 0;
   color: gold;
 }
 .spec-box .spec-content .spec-column ul li {
+  user-select: none;
   margin: 5px 0;
 }
 
 .gameplay-section {
+  user-select: none;
   position: relative;
   padding: 100px 0;
   max-height: 800px;
   text-align: center;
 }
 .gameplay-section .gameplay-bg {
+  user-select: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -960,6 +969,7 @@ section.inactive {
   z-index: -1;
 }
 .gameplay-section .gameplay-bg img {
+  user-select: none;
   width: 100%;
   height: 100%;
   object-fit: cover;
