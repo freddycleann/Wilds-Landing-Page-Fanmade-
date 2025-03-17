@@ -636,12 +636,14 @@ section.inactive {
 }
 
 .scroll-indicator {
+  user-select: none;
   text-align: center;
   padding: 10px 0;
   color: white;
 }
 
 .scroll-arrow {
+  user-select: none;
   text-align: center;
   width: 40px;
   animation: scrollBounce 1.5s infinite ease-in-out;
@@ -1006,6 +1008,7 @@ section.inactive {
 }
 
 .back-to-top {
+  user-select: none;
   position: absolute;
   bottom: 40px;
   left: 50%;
@@ -1019,12 +1022,14 @@ section.inactive {
   gap: 5px;
 }
 .back-to-top img {
+  user-select: none;
   width: 50px;
   height: 50px;
   transform: rotate(180deg);
   animation: float 1.5s infinite alternate ease-in-out;
 }
 .back-to-top span {
+  user-select: none;
   font-size: 16px;
   color: white;
   text-shadow: 1px 1px 2px black;
